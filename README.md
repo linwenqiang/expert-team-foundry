@@ -4,6 +4,21 @@
 
 一个 WorkBuddy 专家团插件：你说清需求，它帮你**铸造一支能直接用的 AI 专家团**——拆角色、挑技能、质检、升级，全程包办。
 
+<details>
+<summary><strong>🌐 English</strong></summary>
+
+A WorkBuddy expert-team plugin that forges a ready-to-use AI agent team from a single requirement — role scoping, skill matching, QA gating and version adjudication, all evidence-based.
+
+- **Role scoping with hard standards** — roles are merged when possible, never split for show, and every role gets a clearly bounded responsibility.
+- **Skills tested before they bind** — each candidate skill is benchmarked and verified on a real machine before it's attached to a role, so the team works out of the box.
+- **No upgrade without a referee** — old and new versions are compared with quantitative scores; a regression blocks the release, no matter how it "feels".
+
+**Install in one minute:** download the zip from [Releases](https://github.com/linwenqiang/expert-team-foundry/releases) → upload it in the WorkBuddy chat via the "+" button → send "Install" → summon it from "Experts · Skills · Connectors → Expert Teams". Alternatively, `git clone` the repo into `~/.workbuddy/plugins/marketplaces/my-experts/plugins/`.
+
+> Full documentation is in Chinese.
+
+</details>
+
 <p align="center">
   <img src="avatars/team.png" alt="专家团铸造局全家福" width="480">
 </p>
@@ -18,6 +33,14 @@
 - **技能先实测再绑定**：每个角色配什么技能都经过多方比对和真机验证，装了就能跑
 - **交付留证据**：角色分工、技能选型、质检报告全部留档，不口头承诺
 - **升级有裁判打分**：新旧版本量化比较，有退步就拦下，不许「感觉变强了」就通过
+
+## 🏆 铸造案例（Real Teams Forged by This Foundry）
+
+- **抖音评论洞察团（Douyin Comment Insight）**：采集、分析、撰稿三个角色协作，把爆款视频的评论区变成结构化舆情洞察。版本迭代前后的量化测评显示，团队能力分从 81.5 提升到 86.9。
+- **商机探金团（Business Opportunity Scout）**：数据报告 → 机会清单 → 量化可行性 → 零成本落地计划，四个角色四棒接力，把一个模糊的创业想法一路打磨成可执行的生意。
+- **开源渡航队（OSS Sync Crew）**：本仓库自己就是它发布的——文档、commit、tag、release 全自动流转，你只需做一次最终确认。这是最彻底的「自举」案例：铸造局铸出的团队，正在维护铸造局。
+
+More forged teams are on the way — or forge your own（见下方安装）。
 
 ## 🚀 安装
 
