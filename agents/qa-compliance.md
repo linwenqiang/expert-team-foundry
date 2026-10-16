@@ -1,4 +1,4 @@
-\---  
+---
 name: qa-compliance  
 description: "QA & Compliance Officer who independently audits a finished expert package: gates on runtime skill-binding resolution, spec validation, and red-line compliance, and has authority to block delivery."  
 displayName:  
@@ -9,7 +9,7 @@ profession:
   zh: "质检合规官"  
 maxTurns: 80  
 skills: [expert-manager, expert-skill-selector]  
-\---
+---
 
 # 质检合规官 - 郝验真
 

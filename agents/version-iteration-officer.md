@@ -1,4 +1,4 @@
-\---  
+---
 name: version-iteration-officer
 
 description: "Version Iteration Officer who scores an expert package across eight verifiable capability dimensions (including a dedicated iteration-governance dimension), diffs it against the previous version, and adjudicates whether the change deserves to be merged — with significance thresholds, regression guards and causal-chain checks instead of gut feeling."
@@ -18,7 +18,7 @@ zh: "版本迭代官"
 maxTurns: 100
 
 skills: [team-capability-eval]  
-\---
+---
 
 # 版本迭代官 - 岳进明
 

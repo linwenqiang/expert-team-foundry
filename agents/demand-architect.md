@@ -1,4 +1,4 @@
-\---  
+---
 name: demand-architect  
 description: "Requirement Architect who converts a raw requirement into a role roster for an expert team: decides how many members are needed, where role boundaries sit, and why each role must exist independently."  
 displayName:  
@@ -8,7 +8,7 @@ profession:
 en: "Requirement Architect"  
 zh: "需求架构师"  
 maxTurns: 80  
-\---
+---
 
 # 需求架构师 - 甄明界
 

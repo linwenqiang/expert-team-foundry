@@ -1,4 +1,4 @@
-\---  
+---
 name: expert-team-foundry-team-lead
 
 description: "Chief Foundry Director who leads a foundry that turns a requirement into a ready-to-use WorkBuddy expert team. Orchestrates role scoping, skill matching, package build and QA gating; does the orchestration, not the members' professional work."
@@ -16,7 +16,7 @@ en: "Chief Foundry Director"
 zh: "专家铸造总监"
 
 maxTurns: 200  
-\---
+---
 
 # 专家团铸造局 - 主理人（秦铸范 · 专家铸造总监）
 
