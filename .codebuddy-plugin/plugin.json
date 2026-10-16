@@ -1,0 +1,154 @@
+{
+  "name": "expert-team-foundry",
+  "version": "1.4.0",
+  "description": "A foundry that turns a requirement into a ready-to-use WorkBuddy expert team, and then keeps that team honest: scopes role boundaries, matches the best available skill for each member, builds the spec-compliant package, gates it through runtime skill-binding verification, and adjudicates version iterations with an eight-dimension quantitative capability score (with a dedicated iteration-governance dimension).",
+  "author": {
+    "name": "Lin"
+  },
+  "agents": [
+    "./agents/expert-team-foundry-team-lead.md",
+    "./agents/demand-architect.md",
+    "./agents/skill-strategist.md",
+    "./agents/package-engineer.md",
+    "./agents/qa-compliance.md",
+    "./agents/version-iteration-officer.md"
+  ],
+  "expertType": "team",
+  "agentName": "expert-team-foundry-team-lead",
+  "teamInfo": {
+    "leadAgent": "expert-team-foundry-team-lead",
+    "memberAgents": [
+      "demand-architect",
+      "skill-strategist",
+      "package-engineer",
+      "qa-compliance",
+      "version-iteration-officer"
+    ]
+  },
+  "displayName": {
+    "en": "Expert Team Foundry",
+    "zh": "专家团铸造局"
+  },
+  "profession": {
+    "en": "Expert Team Foundry",
+    "zh": "专家团铸造局"
+  },
+  "displayDescription": {
+    "en": "Turns a requirement into a ready-to-use expert team, and adjudicates version iterations with a eight-dimension quantitative capability score.",
+    "zh": "需求铸团、按人配置最优技能、生成合规包体，并以八维量化评分裁决版本迭代该不该合入"
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "09-OperationsHR",
+  "defaultInitPrompt": {
+    "zh": "帮我根据这个需求创建一个专家团：",
+    "en": "Build me an expert team for this requirement: "
+  },
+  "plugin": "expert-team-foundry",
+  "tags": [
+    {
+      "en": "Expert Team Design",
+      "zh": "专家团设计"
+    },
+    {
+      "en": "Skill Selection",
+      "zh": "技能选型"
+    },
+    {
+      "en": "Iteration Governance",
+      "zh": "迭代治理"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "帮我根据这个需求创建一个专家团：",
+      "en": "Build me an expert team for this requirement: "
+    },
+    {
+      "zh": "给我这个专家团的每个角色挑最合适的技能，并确认在本机真的能用",
+      "en": "Pick the best available skill for every member and confirm it actually runs locally"
+    },
+    {
+      "zh": "对比这个专家团的两个版本，判断这次迭代到底有没有变强、有没有哪一维退步",
+      "en": "Diff two versions of this expert team and tell me whether the iteration actually improved it"
+    }
+  ],
+  "members": [
+    {
+      "id": "expert-team-foundry-team-lead",
+      "displayName": {
+        "en": "Qin",
+        "zh": "秦铸范"
+      },
+      "profession": {
+        "en": "Chief Foundry Director",
+        "zh": "专家铸造总监"
+      },
+      "avatar": "avatars/expert-team-foundry-team-lead.png",
+      "role": "lead"
+    },
+    {
+      "id": "demand-architect",
+      "displayName": {
+        "en": "Zhen",
+        "zh": "甄明界"
+      },
+      "profession": {
+        "en": "Requirement Architect",
+        "zh": "需求架构师"
+      },
+      "avatar": "avatars/demand-architect.png",
+      "role": "member"
+    },
+    {
+      "id": "skill-strategist",
+      "displayName": {
+        "en": "Shi",
+        "zh": "施用长"
+      },
+      "profession": {
+        "en": "Skill Strategist",
+        "zh": "技能选型师"
+      },
+      "avatar": "avatars/skill-strategist.png",
+      "role": "member"
+    },
+    {
+      "id": "package-engineer",
+      "displayName": {
+        "en": "Bao",
+        "zh": "包成品"
+      },
+      "profession": {
+        "en": "Expert Package Engineer",
+        "zh": "专家包工程师"
+      },
+      "avatar": "avatars/package-engineer.png",
+      "role": "member"
+    },
+    {
+      "id": "qa-compliance",
+      "displayName": {
+        "en": "Hao",
+        "zh": "郝验真"
+      },
+      "profession": {
+        "en": "QA & Compliance Officer",
+        "zh": "质检合规官"
+      },
+      "avatar": "avatars/qa-compliance.png",
+      "role": "member"
+    },
+    {
+      "id": "version-iteration-officer",
+      "displayName": {
+        "en": "Yue",
+        "zh": "岳进明"
+      },
+      "profession": {
+        "en": "Version Iteration Officer",
+        "zh": "版本迭代官"
+      },
+      "role": "member"
+    }
+  ]
+}
