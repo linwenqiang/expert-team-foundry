@@ -1,6 +1,6 @@
 {
   "name": "expert-team-foundry",
-  "version": "1.4.0",
+  "version": "1.6.0",
   "description": "A foundry that turns a requirement into a ready-to-use WorkBuddy expert team, and then keeps that team honest: scopes role boundaries, matches the best available skill for each member, builds the spec-compliant package, gates it through runtime skill-binding verification, and adjudicates version iterations with an eight-dimension quantitative capability score (with a dedicated iteration-governance dimension).",
   "author": {
     "name": "Lin"
@@ -76,8 +76,8 @@
     {
       "id": "expert-team-foundry-team-lead",
       "displayName": {
-        "en": "Qin",
-        "zh": "秦铸范"
+        "en": "Foundry Director",
+        "zh": "铸造总监"
       },
       "profession": {
         "en": "Chief Foundry Director",
@@ -89,8 +89,8 @@
     {
       "id": "demand-architect",
       "displayName": {
-        "en": "Zhen",
-        "zh": "甄明界"
+        "en": "Requirement Architect",
+        "zh": "需求架构"
       },
       "profession": {
         "en": "Requirement Architect",
@@ -102,8 +102,8 @@
     {
       "id": "skill-strategist",
       "displayName": {
-        "en": "Shi",
-        "zh": "施用长"
+        "en": "Skill Strategist",
+        "zh": "技能选型"
       },
       "profession": {
         "en": "Skill Strategist",
@@ -115,8 +115,8 @@
     {
       "id": "package-engineer",
       "displayName": {
-        "en": "Bao",
-        "zh": "包成品"
+        "en": "Package Engineer",
+        "zh": "包工程"
       },
       "profession": {
         "en": "Expert Package Engineer",
@@ -128,8 +128,8 @@
     {
       "id": "qa-compliance",
       "displayName": {
-        "en": "Hao",
-        "zh": "郝验真"
+        "en": "QA Compliance",
+        "zh": "质检合规"
       },
       "profession": {
         "en": "QA & Compliance Officer",
@@ -141,8 +141,8 @@
     {
       "id": "version-iteration-officer",
       "displayName": {
-        "en": "Yue",
-        "zh": "岳进明"
+        "en": "Version Iteration Officer",
+        "zh": "版本迭代"
       },
       "profession": {
         "en": "Version Iteration Officer",
