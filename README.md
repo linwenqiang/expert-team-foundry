@@ -1,6 +1,6 @@
 # 专家团铸造局 (Expert Team Foundry)
 
-![version](https://img.shields.io/badge/version-v1.6.0-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![platform](https://img.shields.io/badge/WorkBuddy-%E6%8F%92%E4%BB%B6-orange)
+![version](https://img.shields.io/badge/version-v1.7.0-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![platform](https://img.shields.io/badge/WorkBuddy-%E6%8F%92%E4%BB%B6-orange)
 
 一个 WorkBuddy 专家团插件：你说清需求，它帮你**铸造一支能直接用的 AI 专家团**——拆角色、挑技能、质检、升级，全程包办。
 
@@ -46,7 +46,7 @@ More forged teams are on the way — or forge your own（见下方安装）。
 
 ### 方式一（推荐）· zip 安装包
 
-1. 到 [Releases](https://github.com/linwenqiang/expert-team-foundry/releases) 下载 `expert-team-foundry-v1.6.0.zip`
+1. 到 [Releases](https://github.com/linwenqiang/expert-team-foundry/releases) 下载 `expert-team-foundry-v1.7.0.zip`
 2. 打开 WorkBuddy 对话框，点左下角「**+**」，上传该 zip
 3. 在输入框发送「**安装**」
 4. 完成后，到「**专家·技能·连接器 → 专家团**」里找到「**专家团铸造局**」即可召唤
@@ -120,6 +120,7 @@ A：到 [Releases](https://github.com/linwenqiang/expert-team-foundry/releases) 
 
 | 版本 | 日期 | 主要变更 |
 |---|---|---|
+| v1.7.0 | 2026-10-18 | 实战教训回灌：需求卡新增数据源可及性预判（登录墙/反爬/地域/软文污染）与个人信息隐私口径（脱敏/PIPL）；编制验收新增长时任务分片策略与空技能审查；交付前新增九维基线预检闸门（总分 <70% 或缺口 ≥3 条须用户裁决，放行标注图纸级交付）；Phase 8 补置信度校准算法与中断恢复记录；新增跨团教训回灌机制（V-6）与 docs/LESSONS.md；plugin.json 维度表述更正为九维（errata） |
 | v1.6.0 | 2026-10-17 | 成员命名从花名制切换为职责词制（命名规则升级至 v2.0）；D9 评分标尺升级至 v3.1，职责词命名判定合规 |
 | v1.5.0 | 2026-10-17 | 防御条款升级：新增 frontmatter 病灶检查与载体回验 |
 

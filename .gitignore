@@ -10,3 +10,6 @@ desktop.ini
 *~
 *.swp
 *.tmp
+
+# Runtime session artifacts
+.pending-preview-session

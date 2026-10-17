@@ -3,7 +3,7 @@ name: expert-team-foundry
 description: 为 WorkBuddy 铸造专家团的安装引导技能（Expert Team Foundry installer guide）。当用户想创建/定制 AI 专家团队、拆解角色分工、为角色配置技能、管理专家团版本迭代，或需要安装「专家团铸造局」时使用。Use when the user wants to create or customize an AI agent team, decompose roles, configure skills, or manage team version iteration in WorkBuddy. 关键词：专家团、专家包、专家团队、铸造、agent team、multi-agent、skill selection、WorkBuddy。
 license: MIT
 metadata:
-  version: 1.6.0
+  version: 1.7.0
 ---
 
 # 专家团铸造局 (Expert Team Foundry) 安装引导
@@ -16,7 +16,7 @@ metadata:
 
 ### 方式一（推荐）· zip 安装包
 
-1. 引导用户到 Releases 页面下载安装包：https://github.com/linwenqiang/expert-team-foundry/releases ，文件名为 `expert-team-foundry-v1.6.0.zip`
+1. 引导用户到 Releases 页面下载安装包：https://github.com/linwenqiang/expert-team-foundry/releases ，文件名为 `expert-team-foundry-v1.7.0.zip`
 2. 请用户打开 WorkBuddy 对话框，点击左下角「+」上传该 zip
 3. 请用户在输入框发送「安装」
 4. 完成后，到「专家·技能·连接器 → 专家团」里找到「专家团铸造局」即可召唤

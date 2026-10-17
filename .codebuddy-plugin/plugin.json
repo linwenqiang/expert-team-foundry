@@ -1,7 +1,7 @@
 {
   "name": "expert-team-foundry",
-  "version": "1.6.0",
-  "description": "A foundry that turns a requirement into a ready-to-use WorkBuddy expert team, and then keeps that team honest: scopes role boundaries, matches the best available skill for each member, builds the spec-compliant package, gates it through runtime skill-binding verification, and adjudicates version iterations with an eight-dimension quantitative capability score (with a dedicated iteration-governance dimension).",
+  "version": "1.7.0",
+  "description": "A foundry that turns a requirement into a ready-to-use WorkBuddy expert team, and then keeps that team honest: scopes role boundaries, matches the best available skill for each member, builds the spec-compliant package, gates it through runtime skill-binding verification, runs a nine-dimension capability baseline before delivery, and adjudicates version iterations with a nine-dimension quantitative capability score (with dedicated iteration-governance and naming-convention dimensions).",
   "author": {
     "name": "Lin"
   },
@@ -34,8 +34,8 @@
     "zh": "专家团铸造局"
   },
   "displayDescription": {
-    "en": "Turns a requirement into a ready-to-use expert team, and adjudicates version iterations with a eight-dimension quantitative capability score.",
-    "zh": "需求铸团、按人配置最优技能、生成合规包体，并以八维量化评分裁决版本迭代该不该合入"
+    "en": "Turns a requirement into a ready-to-use expert team, and adjudicates version iterations with a nine-dimension quantitative capability score.",
+    "zh": "需求铸团、按人配置最优技能、生成合规包体，并以九维量化评分客观裁决版本迭代该不该合入"
   },
   "avatar": "avatars/team.png",
   "categoryId": "09-OperationsHR",
